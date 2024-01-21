@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1705875617 source:c:\users\memo_\desktop\new folder\stack.c
+	"Stack.h"
+
+1705874656 c:\users\memo_\desktop\new folder\stack.h
+	"platform_types.h"
+
+1705870723 c:\users\memo_\desktop\new folder\platform_types.h
+
+1705875617 source:c:\users\memo_\desktop\new folder\stack_main\stack.c
+	"Stack.h"
+
+1705874656 c:\users\memo_\desktop\new folder\stack_main\stack.h
+	"platform_types.h"
+
+1705870723 c:\users\memo_\desktop\new folder\stack_main\platform_types.h
+
