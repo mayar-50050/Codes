@@ -14,7 +14,7 @@ typedef struct stack_ds
     uint32 data[STACK_MAX_SIZE];
 }stack_ds_t;
 
-typedef enum stack_status
+typedef enum stack_status_i
 {
     STACK_EMPTY =0,
     STACK_FULL,
@@ -29,7 +29,7 @@ typedef enum return_status
 
 /*                  PROTOTYPES              */
 return_status_t stack_init(stack_ds_t *my_stack);
-return_status_t stack_push (stack_ds_t *my_stack,uint32 data);
+return_status_t stack_push (stack_ds_t *my_stack,uint32 Data);
 return_status_t stack_pop (stack_ds_t *my_stack);
 return_status_t stack_display (stack_ds_t *my_stack);
 return_status_t stack_copy (stack_ds_t *dest, stack_ds_t *src);
